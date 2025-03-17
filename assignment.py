@@ -30,3 +30,28 @@ def calculator():
                 print("Invalid choice! Please enter a number between 1 and 5.")
 
 calculator()
+
+#2.N dimentional array  and perform addition subtration and multiplication
+arr1 = np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])
+arr2 = np.array([[[9, 10], [11, 12]], [[13, 14], [15, 16]]])
+
+print("Array 1:\n", arr1)
+print("Array 2:\n", arr2)
+
+# Addition
+addition_result = arr1 + arr2
+print("\nAddition:\n", addition_result)
+
+# Subtraction
+subtraction_result = arr1 - arr2
+print("\nSubtraction:\n", subtraction_result)
+
+#  Multiplication(Element-wise)
+multiplication_result = np.multiply(arr1, arr2)
+print("\nElement-wise Multiplication:\n", multiplication_result)
+
+#  Multiplication(Matrix)
+dot_product = np.matmul(arr1, arr2)
+print("\nMatrix Multiplication:\n", dot_product)
+
+

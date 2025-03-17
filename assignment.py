@@ -1,6 +1,7 @@
 import numpy as np
 import heapq
 from collections import deque
+import matplotlib.pyplot as plt
 #1.calculator menu driven with match
 def calculator():
     while True:
